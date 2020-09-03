@@ -1,0 +1,239 @@
+  
+@media (max-width: 990px) {
+
+  .container {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .header-nav {
+    grid-column: 8/9;
+  }
+
+  .header-photo {
+    grid-column: 1/3;
+  }
+
+  .header-contacts {
+    grid-column: 4/9;
+  }
+
+  .side-skills {
+    grid-column: 1/4;
+  }
+
+  .main-experience {
+    grid-column: 4/9;
+  }
+
+  .main-education {
+    grid-column: 4/9;
+  }
+
+  .portfolio-title {
+    grid-column: 1/9;
+  }
+
+  .projects {
+    grid-column: 1/9;
+  }
+      
+  .projects-js, .projects-email, .projects-constructor {
+    grid-column: 1/9;  
+  }
+        
+  .js-item, .email-item, .constructor-item {
+          flex-basis: 23%;
+  }
+    
+}
+
+@media (max-width: 800px) {
+
+  .header-photo {
+    grid-column: 1/2;
+  }
+  
+  .header-contacts {
+    grid-column: 3/9;
+  }
+
+  .side-skills {
+    grid-column: 1/3;
+  }
+  
+  .main-experience {
+    grid-column: 3/9;
+  }
+
+  .main-education {
+    grid-column: 3/9;
+  }
+
+  .main-position {
+    margin-left: -30px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .main-language {
+    grid-column: 3/9;
+  }
+
+  .js-item, .email-item, .constructor-item {
+      flex-basis: 50%;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .header-photo {
+    grid-column: 1/9;
+    grid-row: 2/3;
+    margin: 0 auto;
+  }
+
+  .ava-photo {
+    width: 210px;
+    margin: 0 20px;
+  } 
+
+.header-contacts {
+  grid-column: 1/9;
+  grid-row: 3/4;
+  margin: 0 auto;
+  padding: 20px;
+ }
+
+.side-skills {
+  grid-column: 1/9;
+  grid-row: 4/5;
+  border-right: 0;
+  margin-right: 0;
+  padding: 0 20px;
+ }
+
+div.skill-items {
+  padding: 10px 0;
+ }
+
+.main-experience {
+  grid-column: 1/9;
+  grid-row: 5/6;
+ }
+
+.main-achievements {
+  grid-column: 1/9;
+  grid-row: 6/7;
+}
+
+.main-position {
+  margin: 0;
+  padding: 0 20px;
+ }
+
+.main-education {
+  grid-column: 1/9;
+  grid-row: 7/8;
+ }
+
+.main-language {
+  grid-column: 1/9;
+  grid-row: 8/9;
+ }
+
+.main-common {
+  grid-column: 1/9;
+  grid-row: 9/10;
+}
+
+.portfolio-title {
+  grid-column: 1/9;
+  grid-row: 10/11;
+ }
+
+.projects {
+  grid-row: 11/12;
+}
+
+.projects-js {
+  grid-column: 2/8;
+  grid-row: 12/13;
+ }
+
+.projects-email {
+  grid-column: 2/8;
+  grid-row: 13/14;
+ }
+
+.projects-constructor {
+  grid-column: 2/8;
+  grid-row: 14/15;
+}
+
+.sertificates-title {
+  grid-column: 1/9;
+  grid-row: 15/16;
+}
+
+.sertificates {
+  grid-column: 1/9;
+  grid-row: 16/17;
+  margin-bottom: 20px;
+}
+
+.hobby-title {
+  grid-column: 1/9;
+  grid-row: 17/18;
+}
+
+.hobby {
+  grid-column: 1/9;
+  grid-row: 18/19;
+  margin-bottom: 20px;
+}
+
+.footer {
+  grid-column: 1/9;
+  grid-row: 19/20;
+}
+
+.projects-slide {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+
+.project-icon {
+  display: none;
+ }
+
+.project-text {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+ }
+
+h3.project-title {
+  padding: 0;
+ }
+
+h3.practice-name {
+  padding-left: 20px;
+ }
+
+.project-about {
+  align-items: start;
+ }
+
+.project-description {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.footer .banner {
+  animation: scroll-right 7s linear infinite;
+}
+
+}

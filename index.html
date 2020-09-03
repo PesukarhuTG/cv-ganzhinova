@@ -1,175 +1,588 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap" rel="stylesheet">
-	<link rel="icon" type="image" href="assets/img/favicon.jpg">
-	<script src="https://kit.fontawesome.com/a3c0b9fd88.js" crossorigin="anonymous"></script>
-	<script src="script.js"></script>
-	<link rel="stylesheet" href="style.css">
-	<title>Resume | GanzhinovaT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/a3c0b9fd88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"> <!-- animation -->
+    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"> <!-- slider portfolio -->
+    <link rel="stylesheet" type="text/css" href="css/gamma-gallery.css" /> <!-- gamma-gallery for sertificates -->
+    <script src="js-gamma/grid-01.js"></script> <!-- gamma-gallery for sertificates -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Resume | Ganzhinova</title>
 </head>
 
 <body>
-	<div id="loader">
-		<img id="loader-img" src="assets/img/preloader.gif" width="70">
-	</div>
-	<div id="after-onload" class="container">
-		<div class="header-nav">
-			<ul class="nav">
-				<li><a href="index-ru.html">RUS</a></li>
-			</ul>
-		</div>
-
-		<div class="header-photo bgrnd">
-			<img class="ava-photo" src="assets/img/ava-circle.png" alt="ava photo">
-		</div>
-
-		<div class="header-contacts bgrnd">
-			<h1>Tatiana Ganzhinova</h1>
-			<p class="job-position">HTML/CSS-EDITOR, JUNIOR FRONTEND DEVELOPER, WEB&#8209;DESIGNER</p>
-			<p><i class="fas fa-mobile-alt icon"></i>&nbsp;&nbsp;tel.: +7 (950) XXX-XX-XX</p>
-			<p><i class="far fa-envelope icon"></i>&nbsp;&nbsp;email: ganzhinovat@yandex.ru</p>
-			<p><i class="fab fa-github icon"></i>&nbsp;&nbsp;Github: <a href="https://github.com/PesukarhuTG"
-					target="_blank">pesukarhutg</a> |
-				<i class="fab fa-behance-square icon"></i>&nbsp;&nbsp;Behance: <a
-					href="https://www.behance.net/ganzhinovat" target="_blank">ganzhinovat</a>
-			</p>
-		</div>
 
 
-		<div class="side-skills bgrnd">
-			<h2>&nbsp;Skills</h2>
+    <div class="container">
+        <div class="header-nav">
+            <ul class="nav">
+                <li><a href="index-ru.html">RUS</a></li>
+            </ul>
+        </div>
 
-			<div class="skill-items">
-				<p class="skill-item">HTML/&nbsp;HTML5</p>
-				<p class="skill-item">CSS/&nbsp;CSS3</p>
-				<p class="skill-item">JavaScript (basics skills)</p>
-				<p class="skill-item">GitHub</p>
-				<p class="skill-item">GIT</p>
-			</div>
+        <div class="header-photo">
+            <img class="ava-photo" src="img/ava-circle.png" alt="ava photo">
+        </div>
 
-			<div class="skill-items">
-				<p class="skill-set">CMS: </p><br>
-				<p class="skill-item">WordPress</p>
-				<p class="skill-item">Joomla</p>
-				<p class="skill-item">Bitrix</p>
-			</div>
+        <div class="header-contacts">
+            <h1>Tatiana Ganzhinova</h1>
+            <p class="job-position wow animate__animated animate__zoomIn">JUNIOR FRONTEND
+                DEVELOPER, HTML/CSS&#8209;EDITOR, WEB&#8209;DESIGNER</p>
+            <p><i class="fas fa-mobile-alt icon"></i>&nbsp;&nbsp;tel.: +7 (950) XXX-XX-XX</p>
+            <p><i class="far fa-envelope icon"></i>&nbsp;&nbsp;email: ganzhinovat@yandex.ru</p>
+            <p><i class="fab fa-github icon"></i>&nbsp;&nbsp;Github: <a href="https://github.com/PesukarhuTG"
+                    target="_blank" rel="noopener noreferrer">pesukarhutg</a> |
+                <i class="fab fa-linkedin icon"></i>&nbsp;&nbsp;LinkedIn: <a
+                    href="https://www.linkedin.com/in/tatiana-ganzhinova-5848111b4/" target="_blank"
+                    rel="noopener noreferrer">pesukarhutg</a>
+            </p>
+            <p><i class="fab fa-behance-square icon"></i>&nbsp;&nbsp;Behance: <a
+                    href="https://www.behance.net/ganzhinovat" target="_blank" rel="noopener noreferrer">ganzhinovat</a>
+                |
+                <i class="fab fa-codepen"></i>&nbsp;&nbsp;Codewars: <a href="https://www.codewars.com/users/PesukarhuTG"
+                    target="_blank" rel="noopener noreferrer">pesukarhutg</a>
+            </p>
+            <h2 class="summary">Summary of Qualifications</h2>
+            <p class="summary-text">Novice frontend-developer with economic education. Confident knowledge of
+                HTML(HTML5), CSS(CSS3, SCSS). Improve my knowledge in JavaScript</p>
+        </div>
 
-			<div class="skill-items">
-				<p class="skill-set">Web development tools: </p><br>
-				<p class="skill-item">VS&nbsp;Code</p>
-				<p class="skill-item">Notepad++</p>
-				<p class="skill-item">Adobe&nbsp;Dreamweaver</p>
+        <div class="side-skills">
+            <h2>Technical skills</h2>
 
-			</div>
+            <div class="skill-items">
+                <p class="skill-item">HTML/&nbsp;HTML5</p>
+                <p class="skill-item">CSS/&nbsp;CSS3</p>
+                <p class="skill-item">SASS</p>
+                <p class="skill-item">JS (ES5,ES2015)</p>
+                <p class="skill-item">Responsive/Adaptive markup</p>
+                <p class="skill-item">Semantic html</p>
+            </div>
 
-			<div class="skill-items">
-				<p class="skill-set">Email services:</p><br>
-				<p class="skill-item">GetResponse</p>
-				<p class="skill-item">Joomla</p>
-				<p class="skill-item">Mailchimp</p>
-				<p class="skill-item">Bitrix</p>
-			</div>
+            <div class="skill-items">
+                <p class="skill-set">Programming practices: </p><br>
+                <p class="skill-item">Agile</p>
+                <p class="skill-item">Kanban</p>
+                <p class="skill-item">Scrum</p>
+                <p class="skill-item">Code review</p>
+            </div>
 
-			<div class="skill-items">
-				<p class="skill-set">Design&nbsp;programs:</p><br>
-				<p class="skill-item">Adobe Photoshop</p>
-				<p class="skill-item">Adobe Illustrator</p>
-			</div>
+            <div class="skill-items">
+                <p class="skill-set">Frameworks and Libraries: </p><br>
+                <p class="skill-item">jQuery</p>
+                <p class="skill-item">Bootstrap</p>
+                <p class="skill-item">Node.js</p>
+                <p class="skill-item">React.js</p>
+                <p class="skill-item">Moment.js</p>
+                <p class="skill-item">Lodash.js</p>
+                <p class="skill-item">Chart.js</p>
+                <p class="skill-item">AOS.js</p>
+                <p class="skill-item">Fancybox.js</p>
+                <p class="skill-item">Rellax.js</p>
+                <p class="skill-item">Raphael.js</p>
+                <p class="skill-item">Three.js</p>
+            </div>
 
-			<div class="skill-items">
-				<p class="skill-set">Other:</p><br>
-				<p class="skill-item">Kanban</p>
-				<p class="skill-item">Scrum</p>
-				<p class="skill-item">Scrumban</p>
-				<p class="skill-item">BEM</p>
-				<p class="skill-item">OOP</p>
-			</div>
+            <div class="skill-items">
+                <p class="skill-set">Tools: </p><br>
+                <p class="skill-item">GIT</p>
+                <p class="skill-item">Github</p>
+                <p class="skill-item">VS&nbsp;Code</p>
+                <p class="skill-item">Webstorm</p>
+                <p class="skill-item">Dreamweaver</p>
+            </div>
 
-		</div>
-
-		<section class="main-experience bgrnd main-position">
-			<h2 class="main-heading">Experience</h2>
-			<p>since 2018 | <strong>Web-developer</strong></p>
-			<p>I am experienced in Html and CSS editing + creating email-templates. I can develop and form a layout and
-				create new sections of the
-				web site. Also, I can handle content update on the web page. You can count on me if you need to design
-				your web page, including preparation of graphic materials for design sites, social networks. Moreover, I
-				can create banners, icons, buttons, mockups design, individual design elements for the web site.</p>
-		</section>
+            <div class="skill-items">
+                <p class="skill-set">CMS: </p><br>
+                <p class="skill-item">WordPress</p>
+                <p class="skill-item">Joomla</p>
+                <p class="skill-item">Bitrix24</p>
+            </div>
 
 
-		<section class="main-education bgrnd main-position">
-			<h2 class="main-heading">Education</h2>
+            <div class="skill-items">
+                <p class="skill-set">Email tools:</p><br>
+                <p class="skill-item">GetResponse</p>
+                <p class="skill-item">Mailchimp</p>
+                <p class="skill-item">Bitrix24</p>
+                <p class="skill-item">Joomla</p>
+                <p class="skill-item">Unisender</p>
 
-			<div class="education-table">
+            </div>
 
-				<p id="td0401"><i>2020</i></p>
-				<p id="td0402">Online education: Netology (HTML&CSS course), HtmlAcademy (Adaptive layout: grids or
-					flexes course)</p>
+            <div class="skill-items">
+                <p class="skill-set">Design&nbsp;programs:</p><br>
+                <p class="skill-item">Adobe Photoshop</p>
+                <p class="skill-item">Figma</p>
+                <p class="skill-item">Adobe Illustrator</p>
+            </div>
 
-				<p id="td0301"><i>2019&nbsp;- now</i></p>
-				<p id="td0302">Online education: RS School (Front-end/ JavaScript course)</p>
+            <div class="skill-items">
+                <p class="skill-set">Other technical skills:</p><br>
+                <p class="skill-item">advanced Windows user</p>
+                <p class="skill-item">good Excel knowledge</p>
+                <p class="skill-item">1C as user</p>
+                <p class="skill-item">SAP as user</p>
+                <p class="skill-item">BEM</p>
+                <p class="skill-item">OOP</p>
+            </div>
 
-				<p id="td0201"><i>2018&nbsp;- 2019</i></p>
-				<p id="td0202">Online education: HtmlAcademy.ru, Codecademy.com, Geekbrains.ru, Skillbox.ru</p>
+        </div>
 
-				<p id="td0101"><i>2018</i></p>
-				<p id="td0102">Level UP education center: Junior front-end developer course</p>
+        <section class="main-experience main-position">
+            <h2 class="main-heading">Experience</h2>
+            <p>since 2018 | <strong>Junior Frontend developer</strong></p>
+            <p>I'm experienced in HTML and CSS editing, сreating landing pages and email-templates. I've confident knowledge of Flexbox and
+                Gridlayout, responsive and adaptive design. You can count on me if you need to design your web page,
+                including preparation of graphic materials (banners, icons, buttons, mockups...)</p>
+            <p>Сurrent place of work:</p>
+            <ul>
+                <li>Administration and frontend support of company websites (CMS WordPress): updating news, fixing errors, page revision, installing and configuring plugins</li>
+                <li>Developing new pages / sections</li>
+                <li>Responsive and adaptive design</li>
+                <li>Development of landing pages</li>
+                <li>Creating regular email-templates "from scratch" (and from designed markups)</li>
+                <li>Testing email-templates for correct displayed on different devices</li>
+            </ul>
+            <p></p>
+        </section>
 
-			</div>
-		</section>
+        <section class="main-achievements main-position">
+            <h2 class="main-heading">Achievements</h2>
+            <p>2018 | <strong>Project development «Distance learning for cosmetologists»</strong></p>
+            <p>I'm created and designed the content for training courses on the educational platform IspringSuite.
+                Currently <a href="https://lp.1gmp.ru/free" target="_blank" rel="noopener noreferrer">project</a> is
+                fully operational.</p>
 
-		<section class="main-language bgrnd main-position">
-			<h2 class="main-heading">English</h2>
-			<p>My level of English understanding is somewhere in Pre-Intermediate state. I’m able to read professional
-				literature with dictionary but have lack of communicating skills due to professional environment and
-				insufficient practice.</p>
-		</section>
+            <p>2017-2018 | <strong>Project development «Dissection course for cosmetologists»</strong></p>
+            <p>Create presentation materials; create and send regular email templates; development of landing pages;
+                promotion of the project through TimePad and NetHouse resources;
+                take part in thematic international exhibitions. Currently <a href="https://1gmp.ru/dissection/"
+                    target="_blank" rel="noopener noreferrer">project</a> is fully operational.</p>
+        </section>
 
-		<section class="main-examples bgrnd main-position">
-			<h2 class="main-heading">Portfolio</h2>
 
-			<h3>Websites</h3>
-			<ul>
-				<li><a href="https://pesukarhutg.github.io/course-pm/" target="_blank"> PM Course /education/</a></li>
-				<li><a href="https://pesukarhutg.github.io/MiSocial" target="_blank"> MiSocial /for business/</a></li>
-				<li><a href="https://pesukarhutg.github.io/repair-design" target="_blank">Repair-design /flat disign/</a></li>
-				<li><a href="https://pesukarhutg.github.io/mart" target="_blank">Mart /clothes/</a></li>
-			</ul>
+        <section class="main-education main-position">
+            <h2 class="main-heading">Education</h2>
 
-			<h3>Email templates</h3>
-			<ul>
-				<li><a href="https://pesukarhutg.github.io/email-onlineForum/">https://pesukarhutg.github.io/email-onlineForum/</a></li>
-				<li><a href="https://pesukarhutg.github.io/email-testTask/">https://pesukarhutg.github.io/email-testTask/</a></li>
-				<li><a href="https://pesukarhutg.github.io/email-MakeupNonStop/">https://pesukarhutg.github.io/email-MakeupNonStop/</a></li>
-				<li><a href="https://pesukarhutg.github.io/email-delex/">https://pesukarhutg.github.io/email-delex/</a></li>
-				<li><a href="https://pesukarhutg.github.io/email-onlineCourse/">https://pesukarhutg.github.io/email-onlineCourse/</a></li>
-			</ul>
+            <div class="education-table">
 
-			<h3>Landing page on Tilda</h3>
-			<ul>
-				<li><a href="https://bscosmetic.ru" target="_blank">Bscosmetic</a></li>
-				<li><a href="http://latinoilrussia.tilda.ws" target="_blank">LatinOil</a></li>
-				<li><a href="http://papicorussia.tilda.ws" target="_blank">PapiCo</a></li>
-			</ul>
+                <p id="td0401"><i>2020</i></p>
+                <p id="td0402">Online education: Netology ('HTML&CSS' course), HtmlAcademy ('Adaptive layout: grid or
+                    flex' course), GloAcademy (intensives on JS), UDEMY ('JavaScript + React' course)</p>
 
-			<h3>JavaScript practice</h3>
-			<ul>
-				<li><a href="https://pesukarhutg.github.io/PlayerOnJs/">Player for radio/music/video</a></li>
-				<li><a href="https://github.com/PesukarhuTG/magicBall-game">Magic Ball Game</a></li>
-				<li><a href="https://pesukarhutg.github.io/battleship-game">BattleShip Game #1</a></li>
-				<li><a href="https://pesukarhutg.github.io/battleship-game2">BattleShip Game #2</a></li>
-			</ul>
+                <p id="td0301"><i>2019&nbsp;- now</i></p>
+                <p id="td0302">Online education: RS School (Front-end/ JavaScript course)</p>
 
-		</section>
+                <p id="td0201"><i>2018&nbsp;- 2019</i></p>
+                <p id="td0202">Online education: HtmlAcademy.ru, Codecademy.com, Geekbrains.ru, Skillbox.ru</p>
 
-	</div>
+                <p id="td0101"><i>2018</i></p>
+                <p id="td0102">Level UP education center: Junior front-end developer course</p>
 
+            </div>
+        </section>
+
+        <section class="main-language main-position">
+            <h2 class="main-heading">English</h2>
+            <p>My level of English understanding is somewhere in Pre-Intermediate state. I’m able to read professional
+                literature with dictionary but have lack of communicating skills due to professional environment and
+                insufficient practice.</p>
+        </section>
+
+        <section class="main-common main-position">
+            <h2 class="main-heading">Common</h2>
+            <p>Hard-working and quick-minded, able to work in stressful enviroment and as part of a team. Efficiency and
+                results oriented person with creative and detail-oriented thinking.</p>
+            <p>In my spare time, I participate in development intensives to improve my practical frontend-skills (JS,
+                HTML&CSS).
+            </p>
+        </section>
+
+        <section class="projects-js mobile select">
+            <h3 class="project-title practice-name">JS application </h3>
+            <div class="projects-js-items select-info">
+                <div class="js-item">
+                    <a href="https://pesukarhutg.github.io/battleship-game2/" target="_blank"
+                        rel="noopener noreferrer"><img class="portfolio-item-img" src="img/js-item-01.jpg" alt="project"
+                            width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/battleship-game2/"
+                        target="_blank" rel="noopener noreferrer">
+                        <p>BattleShip Game</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://pesukarhutg.github.io/PlayerOnJs/" target="_blank" rel="noopener noreferrer"><img
+                            class="portfolio-item-img" src="img/js-item-03.jpg" alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/PlayerOnJs/" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>Online-player</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://github.com/PesukarhuTG/calculator" target="_blank" rel="noopener noreferrer"><img
+                            class="portfolio-item-img" src="img/js-item-02.jpg" alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://github.com/PesukarhuTG/calculator" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>Calculator</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://pesukarhutg.github.io/magicBall-game/" target="_blank"
+                        rel="noopener noreferrer"><img class="portfolio-item-img" src="img/js-item-04.jpg" alt="project"
+                            width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/magicBall-game/" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>Magic Ball</p>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="projects-email mobile select">
+            <h3 class="project-title practice-name">Email templates </h3>
+            <div class="projects-email-items select-info">
+                <div class="email-item">
+                    <a href="https://pesukarhutg.github.io/email-testTask/" target="_blank"
+                        rel="noopener noreferrer"><img class="portfolio-item-img" src="img/Email-cargir.jpg"
+                            alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/email-testTask/" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>Test task</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://pesukarhutg.github.io/email-onlineForum/" target="_blank"
+                        rel="noopener noreferrer"><img class="portfolio-item-img" src="img/globalForum.jpg"
+                            alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/email-onlineForum/"
+                        target="_blank" rel="noopener noreferrer">
+                        <p>Online&#8209;forum</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://pesukarhutg.github.io/email-MakeupNonStop/" target="_blank"
+                        rel="noopener noreferrer"><img class="portfolio-item-img" src="img/makeup.jpg" alt="project"
+                            width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/email-MakeupNonStop/"
+                        target="_blank" rel="noopener noreferrer">
+                        <p>Make&#8209;up non&#8209;stop</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://pesukarhutg.github.io/email-invitation/" target="_blank"
+                        rel="noopener noreferrer"><img class="portfolio-item-img" src="img/invitation.jpg" alt="project"
+                            width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/email-invitation/"
+                        target="_blank" rel="noopener noreferrer">
+                        <p>Event invitation</p>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="projects-constructor mobile select">
+            <h3 class="project-title practice-name">Website Builders </h3>
+            <div class="projects-constructor-items select-info">
+                <div class="constructor-item">
+                    <a href="https://bscosmetic.ru/" target="_blank" rel="noopener noreferrer"><img
+                            class="portfolio-item-img" src="img/tilda-bs.jpg" alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://bscosmetic.ru/" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>Bscosmetic on Tilda</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://papicorussia.tilda.ws/" target="_blank" rel="noopener noreferrer"><img
+                            class="portfolio-item-img" src="img/papico.jpg" alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://papicorussia.tilda.ws/" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>PapiCo on Tilda</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://latinoilrussia.tilda.ws/" target="_blank" rel="noopener noreferrer"><img
+                            class="portfolio-item-img" src="img/lo.jpg" alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://latinoilrussia.tilda.ws/" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>LatinOil on Tilda</p>
+                    </a>
+                </div>
+                <div class="js-item">
+                    <a href="https://pesukarhutg.github.io/coffee/" target="_blank" rel="noopener noreferrer"><img
+                            class="portfolio-item-img" src="img/coffee.jpg" alt="project" width="200"></a>
+                    <a class="portfolio-item-title" href="https://pesukarhutg.github.io/coffee/" target="_blank"
+                        rel="noopener noreferrer">
+                        <p>Coffee on WebFlow</p>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="portfolio-title">
+            <h2 class="projects-title">Portfolio</h2>
+        </div>
+
+        <section class="section projects">
+            <div class="slider-container">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper projects-slider">
+                        <!-- Slide -->
+                        <div class="swiper-slide projects-slide">
+                            <a href="https://pesukarhutg.github.io/course-pm/" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="img/PM-360.jpg" alt="project" class="project-image" width="340">
+                            </a>
+                            <div class="project-text">
+                                <h3 class="project-title">Promo education course «PM&#8209;360»</h3>
+
+                                <div class="project-about">
+                                    <img src="img/skills.svg" alt="icon" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Skills</h4>
+                                        <p class="project-paragraph">Flexbox, Animation, JQuery, slider, countdown,
+                                            adaptive
+                                            and responsive design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <a href="https://pesukarhutg.github.io/Space-X/" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="img/spaceX.jpg" alt="project" class="project-image" width="340">
+                            </a>
+                            <div class="project-text">
+                                <h3 class="project-title">Promo site «SpaceX»</h3>
+
+                                <div class="project-about">
+                                    <img src="img/skills.svg" alt="icon" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Skills</h4>
+                                        <p class="project-paragraph">Flexbox, Grid, Animation, Libraries: vidbg.js for
+                                            video, rellax.js for parallax effect, AOS.js for animation elements,
+                                            adaptive
+                                            and responsive design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <a href="https://pesukarhutg.github.io/MiSocial/" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="img/MiSocial.jpg" alt="project" class="project-image" width="340">
+                            </a>
+                            <div class="project-text">
+                                <h3 class="project-title">Promo site «Mi Social»</h3>
+
+                                <div class="project-about">
+                                    <img src="img/skills.svg" alt="icon" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Skills</h4>
+                                        <p class="project-paragraph">Flexbox, Animation with hamburger menu in mobile
+                                            version, slider, adaptive and responsive design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <a href="https://pesukarhutg.github.io/mart/" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="img/mart.jpg" alt="project" class="project-image" width="340">
+                            </a>
+                            <div class="project-text">
+                                <h3 class="project-title">Online-shop «Mart»</h3>
+
+                                <div class="project-about">
+                                    <img src="img/skills.svg" alt="icon" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Skills</h4>
+                                        <p class="project-paragraph">Flexbox, Grid, Scss, Node.js, webpack, slider,
+                                            tabs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <a href="https://pesukarhutg.github.io/repair-design/" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="img/repairDesign.jpg" alt="project" class="project-image" width="340">
+                            </a>
+                            <div class="project-text">
+                                <h3 class="project-title">Promo site «RepairDesign»</h3>
+
+                                <div class="project-about">
+                                    <img src="img/skills.svg" alt="icon" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Skills</h4>
+                                        <p class="project-paragraph">Flexbox, Scss, adaptive
+                                            and responsive design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects-slide">
+                            <a href="https://pesukarhutg.github.io/Ghostbusters/" class="project-link" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="img/Ghostbasters.jpg" alt="project" class="project-image" width="340">
+                            </a>
+                            <div class="project-text">
+                                <h3 class="project-title">Promo site «Ghostbusters» movie</h3>
+
+                                <div class="project-about">
+                                    <img src="img/skills.svg" alt="icon" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Skills</h4>
+                                        <p class="project-paragraph">Flexbox, jQuery (fancybox for trailer), tabs,
+                                            slider for news, adaptive
+                                            and responsive design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="projects-pagination">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="sertificates-title">
+            <h2 class="projects-title">Sertificates</h2>
+        </div>
+
+        <section class="sertificates">
+
+            <div class="gamma-container gamma-loading" id="gamma-container">
+
+                <ul class="gamma-gallery">
+
+                    <li>
+                        <div data-alt="img01" data-description="<h3>LevelUP-2018</h3>" data-max-width="1800"
+                            data-max-height="1350">
+                            <div data-src="docs/xxxlarge/LUP-2018.jpg" data-min-width="1300"></div>
+                            <div data-src="docs/xxlarge/LUP-2018.jpg" data-min-width="1000"></div>
+                            <div data-src="docs/xlarge/LUP-2018.jpg" data-min-width="700"></div>
+                            <div data-src="docs/large/LUP-2018.jpg" data-min-width="300"></div>
+                            <div data-src="docs/medium/LUP-2018.jpg" data-min-width="200"></div>
+                            <div data-src="docs/small/LUP-2018.jpg" data-min-width="140"></div>
+                            <div data-src="docs/xsmall/LUP-2018.jpg"></div>
+                            <noscript>
+                                <img src="docs/xsmall/LUP-2018.jpg" alt="img01" />
+                            </noscript>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-alt="img03" data-description="<h3>Webflow-2020</h3>" data-max-width="1800"
+                            data-max-height="1350">
+                            <div data-src="docs/xxxlarge/WF-2020.jpg" data-min-width="1300"></div>
+                            <div data-src="docs/xxlarge/WF-2020.jpg" data-min-width="1000"></div>
+                            <div data-src="docs/xlarge/WF-2020.jpg" data-min-width="700"></div>
+                            <div data-src="docs/large/WF-2020.jpg" data-min-width="300"></div>
+                            <div data-src="docs/medium/WF-2020.jpg" data-min-width="200"></div>
+                            <div data-src="docs/small/WF-2020.jpg" data-min-width="140"></div>
+                            <div data-src="docs/xsmall/WF-2020.jpg"></div>
+                            <noscript>
+                                <img src="docs/xsmall/WF-2020.jpg" alt="img03" />
+                            </noscript>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-alt="img04" data-description="<h3>Academy-2020</h3>" data-max-width="1800"
+                            data-max-height="1350">
+                            <div data-src="docs/xxxlarge/AV-Space-2020.jpg" data-min-width="1300"></div>
+                            <div data-src="docs/xxlarge/AV-Space-2020.jpg" data-min-width="1000"></div>
+                            <div data-src="docs/xlarge/AV-Space-2020.jpg" data-min-width="700"></div>
+                            <div data-src="docs/large/AV-Space-2020.jpg" data-min-width="300"></div>
+                            <div data-src="docs/medium/AV-Space-2020.jpg" data-min-width="200"></div>
+                            <div data-src="docs/small/AV-Space-2020.jpg" data-min-width="140"></div>
+                            <div data-src="docs/xsmall/AV-Space-2020.jpg"></div>
+                            <noscript>
+                                <img src="docs/xsmall/AV-Space-2020.jpg" alt="img04" />
+                            </noscript>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-alt="img02" data-description="<h3>Netology-2020</h3>" data-max-width="1800"
+                            data-max-height="1350">
+                            <div data-src="docs/xxxlarge/netology-2020.jpg" data-min-width="1300"></div>
+                            <div data-src="docs/xxlarge/netology-2020.jpg" data-min-width="1000"></div>
+                            <div data-src="docs/xlarge/netology-2020.jpg" data-min-width="700"></div>
+                            <div data-src="docs/large/netology-2020.jpg" data-min-width="300"></div>
+                            <div data-src="docs/medium/netology-2020.jpg" data-min-width="200"></div>
+                            <div data-src="docs/small/netology-2020.jpg" data-min-width="140"></div>
+                            <div data-src="docs/xsmall/netology-2020.jpg"></div>
+                            <noscript>
+                                <img src="docs/xsmall/netology-2020.jpg" alt="img02" />
+                            </noscript>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-alt="img05" data-description="<h3>Academy-2020</h3>" data-max-width="1800"
+                            data-max-height="1350">
+                            <div data-src="docs/xxxlarge/AV-Yatunes-2020.jpg" data-min-width="1300"></div>
+                            <div data-src="docs/xxlarge/AV-Yatunes-2020.jpg" data-min-width="1000"></div>
+                            <div data-src="docs/xlarge/AV-Yatunes-2020.jpg" data-min-width="700"></div>
+                            <div data-src="docs/large/AV-Yatunes-2020.jpg" data-min-width="300"></div>
+                            <div data-src="docs/medium/AV-Yatunes-2020.jpg" data-min-width="200"></div>
+                            <div data-src="docs/small/AV-Yatunes-2020.jpg" data-min-width="140"></div>
+                            <div data-src="docs/xsmall/AV-Yatunes-2020.jpg"></div>
+                            <noscript>
+                                <img src="docs/xsmall/AV-Yatunes-2020.jpg" alt="img05" />
+                            </noscript>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="gamma-overlay"></div>
+
+
+            </div>
+
+        </section>
+
+        <section class="footer">
+            <div class="scroll-right">
+                <div class="banner">
+                    <img src="img/walking-cat.gif" alt="Thanks for waching" width="120">
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- sripts for grid gallery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js-gamma/jquery.masonry.min.js"></script>
+    <script src="js-gamma/jquery.history.js"></script>
+    <script src="js-gamma/js-url.min.js"></script>
+    <script src="js-gamma/jquerypp.custom.js"></script>
+    <script src="js-gamma/gamma.js"></script>
+    <script src="js-gamma/grid-gallery.js"></script>
+    <!-- //sripts for grid gallery -->
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
