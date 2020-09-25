@@ -9,3 +9,4 @@
 - CV was created using GRID technology.
 - I used adaptive and responsive methods for correct preview on different displays.
 - In the header you can find language switch button and change CV lang in the range RUS-ENG
+- Gallery and drop-down titles in portfolio
